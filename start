@@ -21,7 +21,7 @@ sudo apt-get install php -y
 sudo apt-get upgrade php -y
 sudo apt-get install php-curl -y
 sudo apt-get upgrade php-curl -y
-
+sudo apt-get install unzip
 
 sudo apt-get install ca-certificates -y
 sudo apt-get upgrade ca-certificates -y
@@ -76,3 +76,10 @@ sudo chmod +x bombardier
 
 sudo git clone https://github.com/alexnest-ua/auto_mhddos_alexnest.git
 cp ~/auto_mhddos_alexnest/runner.sh ~
+
+cp ~
+curl https://onlinecorrector.com.ua/wp-content/uploads/2022/03/cyberghostvpn-ubuntu-20.04-1.3.4.zip -o cyberghostvpn-ubuntu-20.04-1.3.4.zip
+unzip cyberghostvpn-ubuntu-20.04-1.3.4.zip
+cd cyberghostvpn-ubuntu-20.04-1.3.4
+sudo bash install.sh
+
